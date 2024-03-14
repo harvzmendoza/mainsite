@@ -29,7 +29,8 @@
                     <a href="#" class="nav_logo"> <i class='bi bi-ticket-detailed nav_logo-icon'></i> <span class="nav_logo-name">UP Law Center</span> </a>
                     <div class="nav_list"> 
                         <a href="{{route('home')}}" class="nav_link {{ request()->is('home*') ? 'active' : '' }}"> <i class='bi bi-house-gear nav_icon'></i> <span class="nav_name">Dashboard</span> </a> 
-
+                        <a href="" class="nav_link {{ request()->is('home*') ? 'active' : '' }}"> <i class='bi bi-person nav_icon'></i> <span class="nav_name">Profile</span> </a> 
+                        <a href="" class="nav_link"> <i class='bi bi-sliders2 nav_icon'></i> <span class="nav_name">System Settings</span> </a> 
                     </div>
                 </div> 
                 <a class="nav_link"href="{{ route('logout') }}"
