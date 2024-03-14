@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\Office;
 
 class HomeController extends Controller
 {
@@ -23,6 +24,7 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('home');
+        $offices = Office::paginate();
+        return view('home', compact('offices'));
     }
 }
