@@ -13,7 +13,7 @@
         <div class="col-md-3 p-2">
             <div class="card">
                 <div class="card-body">
-                    <a href="http://10.172.0.21">ICTO - Ticketing System</a>
+                    <a href="http://10.172.0.21/home">ICTO - Ticketing System</a>
                 </div>
             </div>
         </div>
